@@ -16,7 +16,7 @@ class MinimalPublisher(Node):
 
     def timer_callback_liveness(self):
         msg = String()
-        msg.data = "0.1.0"
+        msg.data = "0.1.1"
         self.publisher_liveness.publish(msg)
         self.get_logger().info('version: "%s"' % msg.data)
 

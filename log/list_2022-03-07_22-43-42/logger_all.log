@@ -1,0 +1,108 @@
+[0.204s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/song/angel_bridge/angel_bridge/angel_bridge']
+[0.204s] colcon DEBUG Parsed command line arguments: Namespace(base_paths=['/home/song/angel_bridge/angel_bridge/angel_bridge'], build_base='build', ignore_user_meta=False, log_base=None, log_level=None, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f542a47d700>>, metas=['./colcon.meta'], names_only=False, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, paths=None, paths_only=True, topological_graph=False, topological_graph_density=False, topological_graph_dot=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, topological_graph_legend=False, topological_order=False, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f542a47d700>, verb_name='list', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f542a3f9460>)
+[0.220s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.220s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.220s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.220s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.220s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.221s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/home/song/angel_bridge/angel_bridge/angel_bridge'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'ignore'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'ignore_ament_install'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['colcon_pkg']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'colcon_pkg'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['colcon_meta']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'colcon_meta'
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['ros']
+[0.221s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'ros'
+[0.228s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['cmake', 'python']
+[0.228s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'cmake'
+[0.228s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'python'
+[0.228s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extensions ['python_setup_py']
+[0.228s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge) by extension 'python_setup_py'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/log) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/log) by extension 'ignore'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/log) ignored
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'ignore'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'ignore_ament_install'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['colcon_pkg']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'colcon_pkg'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['colcon_meta']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'colcon_meta'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['ros']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'ros'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['cmake', 'python']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'cmake'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'python'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extensions ['python_setup_py']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src) by extension 'python_setup_py'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extension 'ignore'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extension 'ignore_ament_install'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extensions ['colcon_pkg']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extension 'colcon_pkg'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extensions ['colcon_meta']
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extension 'colcon_meta'
+[0.229s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extensions ['ros']
+[0.230s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version) by extension 'ros'
+[0.231s] colcon.colcon_core.package_identification DEBUG Package '/home/song/angel_bridge/angel_bridge/angel_bridge/src/angel_bridge_version' with type 'ros.ament_python' and name 'angel_bridge_version'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'ignore'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'ignore_ament_install'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['colcon_pkg']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'colcon_pkg'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['colcon_meta']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'colcon_meta'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['ros']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'ros'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['cmake', 'python']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'cmake'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'python'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extensions ['python_setup_py']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine) by extension 'python_setup_py'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['ignore', 'ignore_ament_install']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'ignore'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'ignore_ament_install'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['colcon_pkg']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'colcon_pkg'
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['colcon_meta']
+[0.232s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'colcon_meta'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['ros']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'ros'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['cmake', 'python']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'cmake'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'python'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extensions ['python_setup_py']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src) by extension 'python_setup_py'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extension 'ignore'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extension 'ignore_ament_install'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extensions ['colcon_pkg']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extension 'colcon_pkg'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extensions ['colcon_meta']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extension 'colcon_meta'
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extensions ['ros']
+[0.233s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo) by extension 'ros'
+[0.234s] colcon.colcon_core.package_identification DEBUG Package '/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/api_demo' with type 'ros.ament_python' and name 'api_demo'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extension 'ignore'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extension 'ignore_ament_install'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extensions ['colcon_pkg']
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extension 'colcon_pkg'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extensions ['colcon_meta']
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extension 'colcon_meta'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extensions ['ros']
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo) by extension 'ros'
+[0.234s] colcon.colcon_core.package_identification DEBUG Package '/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/app_demo' with type 'ros.ament_python' and name 'app_demo'
+[0.234s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extension 'ignore'
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extension 'ignore_ament_install'
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extensions ['colcon_pkg']
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extension 'colcon_pkg'
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extensions ['colcon_meta']
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extension 'colcon_meta'
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extensions ['ros']
+[0.235s] colcon.colcon_core.package_identification Level 1 _identify(/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo) by extension 'ros'
+[0.235s] colcon.colcon_core.package_identification DEBUG Package '/home/song/angel_bridge/angel_bridge/angel_bridge/src/wasp_engine/src/wasp_engine_demo' with type 'ros.ament_cmake' and name 'wasp_engine_demo'
+[0.235s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
