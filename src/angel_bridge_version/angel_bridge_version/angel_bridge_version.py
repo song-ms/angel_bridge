@@ -8,27 +8,11 @@ from std_msgs.msg import String
 class MinimalPublisher(Node):
 
     def __init__(self):
-        super().__init__('minimal_publisher')
-        self.publisher_ = self.create_publisher(Bool, '/topic/button/emr/bool', 10)
-        self.publisher_liveness = self.create_publisher(String, '/controller_version', 10)
-        timer_period = 5  # seconds
+        super().__init__('angel_bridge_version')
+        self.publisher_liveness = self.create_publisher(String, '/bridge_version', 10)
         timer_period2 = 2  # seconds
-        self.timer = self.create_timer(timer_period, self.timer_callback)
         self.timer_liveness = self.create_timer(timer_period2, self.timer_callback_liveness)
         self.i = 0
-
-    def timer_callback(self):
-
-        msg = Bool()
-        if self.i%2 == 0 :
-            msg.data = True
-            self.publisher_.publish(msg)
-            self.get_logger().info('Publishing: "%s"' % msg.data)
-        else : 
-            msg.data = False
-            self.publisher_.publish(msg)
-            self.get_logger().info('Publishing: "%s"' % msg.data)
-        self.i += 1
 
     def timer_callback_liveness(self):
         msg = String()
