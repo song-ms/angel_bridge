@@ -21,7 +21,7 @@ class MinimalPublisher(Node):
 
     def timer_callback_liveness(self):
         msg = String()
-        msg.data = "0.1"
+        msg.data = "0.2"
         db = self.client.wasp.bridgever
         version_db = {"id" : "M30", "version" : msg.data}
         db.insert_one(version_db)
